@@ -7,7 +7,7 @@ import { Task } from './task.entity'
 import { TaskStatus } from './task-status.enum';
 
 @Injectable()
-export class TasksService {
+export class TaskService {
     constructor(
         @InjectRepository(TaskRepository)
         private taskRepository: TaskRepository
